@@ -1,0 +1,105 @@
+.detail-container {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    padding: 2.5rem;
+    max-width: 900px;
+    margin: 2rem auto;
+}
+
+.detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.detail-header-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.button-edit {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #4b5563;
+    border: none;
+    border-radius: 0.375rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button-edit:hover {
+    background-color: #374151;
+}
+.button-delete {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #dc2626;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+}
+.button-delete:hover {
+    background-color: #b91c1c;
+}
+
+.detail-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.detail-main pre { /* For instructions */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: #f9fafb;
+    padding: 1rem;
+    border-radius: 0.375rem;
+}
+
+.detail-sidebar {
+    background-color: #f9fafb;
+    padding: 1.5rem;
+    border-radius: 0.375rem;
+}
+
+.detail-info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.info-item {
+    font-size: 0.875rem;
+}
+.info-item strong {
+    display: block;
+    color: #374151;
+}
+.info-item span {
+    color: #111827;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+.list-item:last-child {
+    border-bottom: none;
+}
+.list-item span {
+    font-size: 0.875rem;
+}
